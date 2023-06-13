@@ -30,6 +30,8 @@ export default {
       Подготовка сайта к индексации, сбор семантики, кластеризация и чистка
       семантики, анализ конкурентов и ниши
     </p>
+    
+    // FIXME: the button does not switch elements
 
     <button class="button1" :disabled="isShow" @click="sendClickForParent">
       <h1>
