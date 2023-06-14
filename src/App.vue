@@ -1,14 +1,12 @@
 <script>
 import box from "./box.vue";
 import buttonOne from "./buttonOne.vue";
-import buttonTwo from "./buttonTwo.vue";
-import buttonThree from "./buttonThree.vue";
+
 export default {
   components: {
     buttonOne,
     box,
-    buttonTwo,
-    // buttonThree,
+    
   },
   data: function () {
     return {
@@ -27,10 +25,11 @@ export default {
   },
 };
 </script>
+
+
+
+
 <template>
-  <buttonOne />
-  <buttonTwo />
-  <buttonThree />
   <body class="derevo">
     <div class="header">
       <div class="background">
@@ -185,7 +184,7 @@ export default {
       <div class="string4">
         <div class="mainString"></div>
       </div>
-      <h2 class="seotext">SEO-продвижение</h2>
+      <h2  class="seotext">SEO-продвижение</h2>
     </div>
    
     <img
@@ -193,6 +192,8 @@ export default {
       src="./image/эдупартнер с темными линиями 2.png"
       alt=""
     />
+  <buttonOne />
+
     <!-- <div class="supLow">
       <div class="lowground">
         <ul class="ulLow">
@@ -331,8 +332,8 @@ export default {
 }
 .seotext {
   position: absolute;
-  left: 90px;
-  bottom: 1000px;
+  left: 115px;
+  bottom: -50px;
 }
 .SEO {
   position: absolute;
