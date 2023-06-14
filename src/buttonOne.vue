@@ -13,23 +13,45 @@ export default{
     <div class=" cloud1">
       <p class="textcloud1">Подготовка сайта к индексации, сбор семантики, кластеризация и чистка семантики, анализ конкурентов и ниши</p>
 <button class="btn1">
- <h1> Читать больше</h1>
- <img class="arrow" src="./image/Arrow 10.png" alt="">
-
+ <h1 class="nameButtoncloud1"> Читать больше</h1>
 </button>
-
-
-    </div>
-  
+ </div>
+  <div class="cloud2">
+<p class="textcloud2">Исправление критических ошибок</p>
+<button class="btn2">
+  <h1 class="nameButtoncloud1">Читать больше</h1>
+</button>
+</div>
 </template>
 
 
 <style scoped>
+.nameButtoncloud1{
+  text-align: center;
+}
+  
+.cloud2{
 
-.arrow{
-position: ;
+  
+width: 380px;
+height:264px;
+
+box-sizing: border-box;
+
+position:relative;
+left: 50%;
+right: 0%;
+top: 2555px;
+bottom: 0%;
+
+background: linear-gradient(122.93deg, rgba(100, 100, 100, 0.71) 1.7%, rgba(72, 71, 71, 0.12) 48.4%, rgba(115, 106, 106, 0.17) 94.76%);
+border: 1px solid #FAFF00;
+border-radius: 50px;
+
+
 }
 .cloud1{
+
 width: 380px;
 height:264px;
 
@@ -53,6 +75,7 @@ text-align: center;
 }
 .btn1{
 width: 80%;
+height: 27%;
   position: absolute;
 left: 11.05%;
 right: 14.47%;
